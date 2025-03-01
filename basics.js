@@ -24,11 +24,17 @@ let found = false
 for(let i = 0; i < nums.length; i++){
     if(nums[i] == 3){
         found = true
-        console.log("We have found 3 at index " + i)
+        //console.log("We have found 3 at index " + i)
         break
     }
 }
 
 if(!found){
-    console.log("We didn't have a 6")
+    //console.log("We didn't have a 6")
 }
+
+function score(points, name){
+    return name + " scored " + points + " today."
+}
+
+console.log(score("56", "curry"))
